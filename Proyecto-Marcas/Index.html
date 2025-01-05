@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto de clase</title>
-    <link href="https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@300..700&family=Poppins:wght@100;200;300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+NO+Guides&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/4e84ad5bc3.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/estilos.css">
 </head>
@@ -20,6 +22,7 @@
             <img class="hamburger" src="icons/cheese-solid-marron.svg" alt="trozo de tarta"</img>
         </div>
     </div>
+
         <nav class="menu-navegacion">
             <a href="#inicio"><h2>Inicio</h2></a> <!-- Anclas -->
             <a href="#carta"><h2>Carta</h2></a>
@@ -29,12 +32,60 @@
         </nav>
    
 <header id="inicio">
-
-    <div class="titulo">
-        <h2><span>THE</span>CHESSECAKE</h2>
-        <p>Para los amantes de la cremosidad</p>
+    <div class="fondo">
+        <div class="titulo">
+            <h2><span>THE</span>CHESSECAKE</h2>
+            <p>Para los amantes de la cremosidad</p>
+        </div>
     </div>
-    
+    <div class="post-cabecera">
+        <a href="#" class="adelante" onclick="retrocedeSlide()"><img src="icons/circle-chevron-left-solid.svg" id="flecha" alt="izquierda"></a>
+        <div id="seccion1">
+            <ul>
+                <li>
+                    <h3>En Valencia</h3>
+                </li>
+                <li>
+                    <img src="icons/earth-africa-solid.svg" alt="glovo">
+                    <h4>Envíos a domicilio</h4>
+                </li>
+                <li>
+                    <img src="icons/bag-shopping-solid.svg" alt="bolsa">
+                    <h4>Punto de recogida</h4>
+                </li>
+                <li>
+                    
+                </li>
+            </ul>
+        </div>
+        <div id="seccion2">
+            <ul>
+                <li>
+                    <h3>Elige nuestros diferentes tamaños</h3>
+                </li>
+                <li>
+                    <img src="icons/ruler-solid.svg" alt="regla">
+                    <h4>Peq. 9cm</h4>
+                    <h4>Med. 18cm</h4>
+                    <h4>Gr. 28cm</h4>
+                </li>
+            </ul>
+            
+        </div>
+        <div id="seccion3">
+            
+            <ul>
+                <li>
+                    <h3>Metodos de pago</h3>
+                </li>
+                <li> <img src="icons/credit-card-solid.svg" alt="credito">
+                    <h4>Pago con tarjeta</h4></li>
+                <li><img src="icons/hand-holding-dollar-solid.svg" alt="mano">
+                    <h4>Pago contrareembolso</h4></li>
+            </ul>
+        </div>
+        <a href="#" class="adelante" onclick="avanzaSlide()"><img src="icons/circle-chevron-right-solid.svg"  id="flecha" alt="right"></a>
+    </div>
 </header>
 
 <main>
@@ -303,7 +354,7 @@
                 <div class="descripcion">
                     <h3>Choco&Cookie Milka</h3>
                     <div class="sep"></div>
-                    <p>Para los amantes del chocolate Milka , la famosa marca de chocolate Suizo </p>
+                    <p>Para los amantes del chocolate Milka, la famosa marca de chocolate Suizo </p>
                 </div>
             </div>
         </div>
@@ -313,37 +364,37 @@
         <div class="sub-titulo">
             <h2><span>El</span>Equipo</h2>
         </div>
-        <div>
-            <div class="equipo">
-                <div class="descripcion">
-                    <div>
-                    <h2>¿Quiénes Somos?</h2>
-                    <h3>Una Pasión Familiar</h3>
-                    <p>
-                    Todo comenzó en la cocina de nuestra abuela, donde mis hermanos y yo competíamos por preparar la tarta de queso perfecta. Entre risas, pruebas de sabores y un sinfín de recetas, descubrimos que cada uno tenía un talento único para crear combinaciones deliciosas.  
-                    Lo que empezó como un hobby familiar se convirtió en nuestra gran pasión: ofrecer tartas de queso de diferentes sabores, hechas con amor y tradición. Hoy en día, seguimos trabajando juntos, combinando creatividad e ingredientes de calidad para llevar a tu mesa el dulce perfecto.  
-                    </p>
-                </div>
-                    <div class="imagen"><img class="imagen1" src="img/keoma-oran-Iid0F5joQvI-unsplash.jpg" alt="trabajadora">
-                    <img class="imagen2" src="img/aliona-gumeniuk-GAauSStia3s-unsplash.jpg" alt="trabajadora"></div>
-                </div>
-                <div class="card">
-                        <div class="texto">
-                        <h3>Misión</h3>
-                        <p>En <strong>TheCheeseCake</strong>, nuestra misión es endulzar tus momentos especiales con tartas de queso únicas, elaboradas con ingredientes frescos y mucho cariño. Creemos en la importancia de mantener nuestras raíces familiares, ofreciendo productos de calidad que transmitan el amor y la tradición con la que empezamos.  
-                        </p>
-                        <h3>Visión</h3>
-                        <p>
-                        Nuestra visión es convertirnos en la referencia número uno para los amantes de las tartas de queso, llevando nuestros sabores a todos los rincones y creando una comunidad que comparta nuestra pasión por los postres artesanales. Queremos que cada persona, en cada lugar, pueda disfrutar de una experiencia dulce e inolvidable.  
-                        </p>
-                        <h3>Valores</h3>
-                        <p>
-                        Nuestros valores se centran en la creatividad, la honestidad y la sostenibilidad. Trabajamos para innovar en sabores, ser transparentes con nuestros clientes y cuidar del medio ambiente, utilizando materiales y procesos responsables.  
-                        </p>
-                    </div>      
-                    <div><img src="img/Tartas3.PNG" alt="tartas"></div>
+        
+        <div class="equipo">
+            <div class="descripcion">
+                <div>
+                <h2>¿Quiénes Somos?</h2>
+                <h3>Una Pasión Familiar</h3>
+                <p>
+                Todo comenzó en la cocina de nuestra abuela, donde mis hermanos y yo competíamos por preparar la tarta de queso perfecta. Entre risas, pruebas de sabores y un sinfín derecetas, descubrimos que cada uno tenía un talento único para crear combinaciones deliciosas.  
+                Lo que empezó como un hobby familiar se convirtió en nuestra gran pasión: ofrecer tartas de queso de diferentes sabores, hechas con amor y tradición. Hoy en día, seguimostrabajando juntos, combinando creatividad e ingredientes de calidad para llevar a tu mesa el dulce perfecto.  
+                </p>
             </div>
+                <div class="imagen"><img class="imagen1" src="img/keoma-oran-Iid0F5joQvI-unsplash.jpg" alt="trabajadora">
+                <img class="imagen2" src="img/aliona-gumeniuk-GAauSStia3s-unsplash.jpg" alt="trabajadora"></div>
+            </div>
+            <div class="card">
+                <div class="texto">
+                    <h3>Misión</h3>
+                    <p>En <strong>TheCheeseCake</strong>, nuestra misión es endulzar tus momentos especiales con tartas de queso únicas, elaboradas con ingredientes frescos y mucho cariño.Creemos en la importancia de mantener nuestras raíces familiares, ofreciendo productos de calidad que transmitan el amor y la tradición con la que empezamos.  
+                    </p>
+                    <h3>Visión</h3>
+                    <p>
+                    Nuestra visión es convertirnos en la referencia número uno para los amantes de las tartas de queso, llevando nuestros sabores a todos los rincones y creando unacomunidad que comparta nuestra pasión por los postres artesanales. Queremos que cada persona, en cada lugar, pueda disfrutar de una experiencia dulce e inolvidable.  
+                    </p>
+                    <h3>Valores</h3>
+                    <p>
+                    Nuestros valores se centran en la creatividad, la honestidad y la sostenibilidad. Trabajamos para innovar en sabores, ser transparentes con nuestros clientes y cuidardel medio ambiente, utilizando materiales y procesos responsables.  
+                    </p>
+                </div>      
+                <div><img src="img/Tartas3.PNG" alt="tartas"></div>
         </div>
+        
     </section>
 </main>
 <footer>
@@ -370,13 +421,14 @@
                     </div>
                     <div class="itemform">
                         <input type="submit" name="boton" value="CONTACTAR" id="enviar">
+                        <a href=" https://wa.me/34644869264?text=Quiero una tarta ,YA!"><img class="whatsapp" src="icons/whatsapp-brands-solid.svg" alt="whatsapp"></a>
                     </div>
                 </form>
     </section>
     <section class="pie">
         <img class="logo" src="img/logo1.png" alt="logo">
         <h3>¡ Gracias por su visita, vuelva pronto !</h3>
-        <a href=" https://wa.me/34644869264?text=Quiero una tarta ,YA!"><img class="whatsapp" src="icons/whatsapp-brands-solid.svg" alt="whatsapp"></a>
+        
     </section>
 </footer>
 
@@ -390,8 +442,8 @@
 <script src="js/cambiar-img2.js"></script>
 <script src="js/cambiar-img1.js"></script>
 <script src="js/reloj.js"></script>
+<script src="js/carrusel.js"></script>
 
 </body>
 </html>
 
-<!--<a href="https://api.whatsapp.com/send/?phone=%2B34673276813&text&type=phone_number&app_absent=0">+34 644 86 92 64</a> -->
