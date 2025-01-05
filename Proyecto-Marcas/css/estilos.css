@@ -147,35 +147,7 @@ header{
     background-color: #93613C;
     border-radius: 0 0 15px 15px;
     border-top: 15px solid beige;
-    color: beige;
-    display: grid;
-    grid-template-columns: 30px 220px 30px;
-    justify-content: center;
-    gap: 200px;
-    align-items: center;
 }
-.post-cabecera div{
-    height: 150px;
-}
-.post-cabecera img{
-    width: 30px;
-    height: 30px;
-}
-#flecha{
-    cursor: pointer;
-}
-.post-cabecera  li{
-    display: flex;
-    gap: 10px;
-    padding: 5px;
-    justify-content: start;
-}
-.post-cabecera h3{
-    margin: auto;
-    padding-bottom: 10px;
-}
-
-
      /*FIN HEADER*/
 
      /*Carta*/
@@ -374,7 +346,7 @@ border-radius: 0px 0px 15px 15px;
  }
  .whatsapp{
     position: fixed;
-    bottom: 8%; 
+    bottom: 9.5%; 
     right: 6%;
     width: 40px;
     height: 40px;
