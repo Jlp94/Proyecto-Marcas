@@ -29,9 +29,13 @@ a{
 .sub-titulo span{
     font-size: 20px;
 }
+.sep{
+    margin: 0 5px 5px 0;
+    border: 1px solid #93613C;
+}  
 /*FIN Generales*/
 
-/*Cabecero y menú de nav*/
+/*Cabecero y menú de navegación*/
 
 .principal{
     background-color: beige;
@@ -113,7 +117,7 @@ header{
 }
 .fondo{
     background-image: linear-gradient(to top, rgba(61, 53, 53, 0.486) 0%, hsla(0, 7%, 22%, 0.514) 100%), url(../img/FondoHeader.PNG);
-    min-height:580px; /*Para que se ajuste de altura al padding*/
+    min-height: 580px; /*Para que se ajuste de altura al padding*/
     background-position: center;
     background-repeat: no-repeat; /* Para que no se repita*/
     background-size: cover; /*Para que se adapate al bloque*/
@@ -264,10 +268,6 @@ header{
      border-radius: 30px;
      cursor: pointer;
  }
- .sep{
-     margin: 0 5px 5px 0;
-     border: 1px solid #93613C;
- }  
  .card .descripcion{
      background-color: #f8e4d5;
      width: 260px;
@@ -298,7 +298,8 @@ header{
     width: 1065px;
     margin-inline: auto ;
  }
- .equipo .descripcion{
+ /* Primer Bloque*/
+ .equipo .descripcion-1{
     width: 478px;
     height: 555px;
     margin: 2%;
@@ -310,31 +311,30 @@ header{
     font-size: 15px;
     text-align: center;
  }
- .equipo .descripcion h2{
+ .equipo .descripcion-1 h2{
     padding-block: 15px;
  }
 
- .equipo .descripcion p{
+ .equipo .descripcion-1 p{
     padding: 40px;
  }
- .equipo .descripcion .imagen{
+ .imagen{
     width: 160px;
     height: 487px;
- }
- .equipo .descripcion img{
-    width: 160px;
-    height: 230px;
+    margin-block: 5%;
  }
  .imagen1{
+    width: 160px;
+    height: 230px;
 border-radius: 15px 15px 0px 0px ;
  }
  .imagen2{
+    width: 160px;
+    height: 230px;
 border-radius: 0px 0px 15px 15px;
  }
- .imagen{
-    margin-block: 5%;
- }
- .equipo .card{
+ /* Segundo Bloque*/
+ .equipo .descripcion-2{
     width: 478px;
     height: 555px;
     margin: 2%;
@@ -344,13 +344,13 @@ border-radius: 0px 0px 15px 15px;
     display: flex;
     font-size: 10.5px;
  }
- .equipo .card .texto{
+ .equipo .descripcion-2 .texto{
     padding: 3%;
  }
- .equipo .card .texto h3{
+ .equipo .descripcion-2 .texto h3{
     padding-block: 15px;
  }
-.equipo .card img{
+.equipo .descripcion-2 img{
     width: 300px;
     height: 100%;
     border-radius: 0 20px 20px 0;
